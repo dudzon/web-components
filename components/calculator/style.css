@@ -1,0 +1,58 @@
+* {
+  box-sizing:border-box;
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  margin:0;
+  padding:0;
+}
+
+html {
+  height:100%;
+  background: radial-gradient(circle,#fff,#ddd);
+  background-size:cover;
+}
+
+.calculator {
+  width: 10em;
+  height:auto;
+  background:linear-gradient(#C31A61,#74CD7C);
+  margin: 1em auto;
+
+}
+.top span.clear{
+  float: left;
+  width: 2.5em;
+  height: 2.5em;
+  line-height:3em;
+  text-align: center;
+}
+
+.top .input {
+  float: right;
+  width:7.5em;
+  height: 2.5em;
+  border: 1px double #000;
+}
+
+.keys span {
+  float: left;
+  width: 2.5em;
+  text-align:center;
+  border: 1px solid #000;
+}
+.keys,.top{
+  overflow:hidden;
+}
+span.delete {
+  width:10em;
+  display: block;
+  text-align: center;
+}
+
+.input {
+  background-color: rgba(255,255,255,0.3);
+}
+span.delete:hover,.keys span:hover,.top .clear:hover{
+  background:linear-gradient(#CD848F,#CDBE1F);
+}

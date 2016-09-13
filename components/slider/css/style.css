@@ -1,0 +1,22 @@
+body{
+font-family: 'Open Sans', sans-serif;
+}
+fieldset{
+  display:block;
+  width:20em;
+  font-size:1.1em;
+  border:none;
+  margin:0 auto;
+  margin-top:2em;
+}
+input[type="range"]{
+  float:left;
+  width:100%;
+}
+label{
+  display:block;
+}
+textarea{
+  margin-top:50px;
+  width:100%;
+}

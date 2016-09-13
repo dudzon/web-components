@@ -1,0 +1,96 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size:1.2em;
+  text-align:center;
+}
+form{
+  width: 40em;
+  border:2px solid #436647;
+  box-sizing:border-box;
+  display:block;
+  margin: 0 auto;
+  position:relative;
+  background-color:rgba(25,204,181,.4);
+}
+input{
+  padding:5px 10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:1.3em;  
+}
+input[type="date"]{
+  margin-left:2em;
+  position:relative;
+  text-transform:uppercase;
+  left:-30px;
+}
+.label-date{
+  position:absolute;
+  left: 80px;
+  top:25px;
+  font-size:1.3em;  
+}
+input[type="time"]{
+  position:relative;
+  margin-left:-2em;
+  left:102px;
+}
+.label-time{
+  position:relative;
+  left:40px;
+  font-size:1.3em
+}
+#DropDownTimezone{
+  width: 80%;
+  display:block;
+  margin-left:10%;
+  padding:5px 10px;
+  margin-bottom:20px;
+}
+textarea{
+  display:block;
+  width:79.5%;
+/*   margin-left:9%; */
+  position:relative;
+  left:75px;
+  margin-top:4em;
+}
+.label-contact{
+  position:relative;
+  font-size:1.3em;
+  left:7px;
+}
+input[type="text"]{
+  position:relative;
+  margin-left: 2em;
+  right:-30px;
+}
+.label-email{
+  position:relative;
+  display:block;
+  left:-25%;
+  font-size:1.3em;
+  margin-top:1em;
+}
+input[type="email"]{
+  position:absolute;
+  bottom:60px;
+  left:370px;
+}
+input[type="submit"]{
+  position:relative;
+  top:100px;
+  background-color:red;
+  color:#FFF;
+  padding:5px 20px;  
+}
+input[type="submit"]:hover{
+  background-color:rgba(199,38,36,.8);
+}
+
+
+
+
+
+
+

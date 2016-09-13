@@ -1,0 +1,67 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  box-sizing:border-box;
+  font-size:1.1em;
+}
+form{
+  margin:0 auto;
+}
+fieldset{
+  border:none;
+  margin:0 auto;
+}
+.billing{
+  float:left;
+  display:block;
+  width:30%;
+  height:auto;
+  margin-left: 20%;
+  background-color:rgba(85,76,217,.8);
+/*   border-radius:10px; */
+  position:absolute;
+  
+ 
+}
+.shipping{
+  float:left;
+  display:block;
+  width:30%;
+  background-color:rgba(255,107,96,.8);
+/*   border-radius:10px; */
+  position:absolute;
+  right:200px;
+  
+}
+.billing > input[type="text"]{
+  display:block;
+  padding: 10px 100px;
+/*   border-radius:12px;  */
+  margin:0 auto;
+  margin-bottom:25px;
+  
+}
+.shipping > input[type="text"]{
+  display:block;
+  padding: 10px 100px;
+/*   border-radius:12px;  */
+  margin:0 auto;
+  margin-bottom:25px;   
+}
+.address-input{
+  position:absolute;
+  left:800px;
+  top:600px;
+  
+}
+.address{
+  position:absolute;
+  left:900px;
+  top:595px;
+  font-size:1.2em;  
+}
+input[type="text"]:focus{
+  background-color:lightblue;
+  border:1px solid black;
+  outline:none;
+  font-size:1.1em;
+}

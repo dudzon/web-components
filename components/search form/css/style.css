@@ -1,0 +1,59 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+fieldset{
+  max-width:700px;
+  height:auto;
+  border:none;
+  margin:40px auto;
+  background-color:rgba(13,99,255,.2);
+  box-sizing:border-box;
+}
+label{
+  display:block;
+  padding: 5px 10px;
+  text-align:center;
+  letter-spacing:1px;
+  margin:10px 0;
+  font-size:1.2em;
+}
+input[type="text"]{
+  width:90%;
+  border-radius:8px;
+  border:none;
+  margin:0 0 0 20px;
+  padding:16px;
+  font-family: 'Open Sans', sans-serif;
+}
+select {
+    width: 75%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    float:left;
+    font-size:1em;
+    margin:0 0 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f1f1f1
+}
+select > option{
+ font-size: .9em;
+}
+input[type="submit"]{
+  display:block;
+  float:right;
+  max-width:15%;
+  padding: 17px 25px;
+  border-radius: 8px;
+  margin: 0 20px 30px;
+  font-size:1.1em;
+  background-color:rgba(155,250,40,.5);
+  border: 1px solid rgba(155,250,40,.8);
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+}
+input[type="submit"]:hover{
+    background-color:rgba(155,250,40,.8);
+
+}
+

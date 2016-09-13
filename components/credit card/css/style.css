@@ -1,0 +1,35 @@
+body{
+  font-family: 'Arimo', sans-serif;
+}
+form{
+  display:block; 
+  max-width:200px;
+  margin:0 auto;
+  margin-top:50px;
+}
+fieldset{
+  background-color:rgba(108,178,185,.5);
+  border:none;
+}
+input{
+  padding: 3px 15px;
+  margin-top:10px;
+}
+.csv{
+  width:20px;
+  display:block;
+}
+label{
+  font-size:1.2em;
+  display:block;
+  margin-top:10px;
+  }
+#exyear{
+  padding:5px;
+  font-size:.8em;
+  margin-top:10px;
+}
+#exmonth{
+  padding:5px;
+  font-size:.8em;
+}

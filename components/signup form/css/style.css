@@ -1,0 +1,62 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color:#3240CD;
+}
+h3{
+  font-size:2em;
+  color:#000;
+  text-align:center;
+  padding:30px 0;
+}
+fieldset {
+  max-width:500px;
+  border:none;
+  height:auto;
+  margin:0 auto;
+  box-sizing:border-box;
+  background-color: rgba(56,205,59,0.3);
+  border-radius: 12px;
+  position:relative;
+  font-size:1.5em;
+}
+label{
+  display:block;
+  padding: 5px 10px;
+  text-align:center;
+  letter-spacing:1px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  border:none;
+  font-size:1em;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+  background-color:rgba(84,179,216,.3);
+  border:2px solid blue;
+}
+input[type="submit"]{
+  display:block;
+  margin:20px auto;
+  width:25%;
+  padding:10px 15px;
+  border-radius:8px;
+  border:none;
+  font-size:1.2em;
+  background-color:rgba(216,67,60,0.6);
+  color:#3240CD; 
+}
+input[type="submit"]:hover{
+  background-color:rgba(216,67,60,0.4);
+}
+
+
